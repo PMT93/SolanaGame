@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Solana Blockchain</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Connect with wallet</h1>
+      <form>
+        <label for="recipient-public-key">Wallet address:</label>
+        <input type="text" id="recipient-public-key" name="public-key" placeholder="Enter public key">
+        
+        <input type="button" onclick="submitForm(event)" value="Log in" id="submitButton">
+        <span id="message"></span>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/script.js"></script>
+  </body>
+</html>
